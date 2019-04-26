@@ -1,5 +1,8 @@
  language: node_js
  node_js: "stable"
 
+ env:
+   - SAUCE_SCREEN_RESOLUTION=1920x1080
+
  before_install:
    - stty cols 80
