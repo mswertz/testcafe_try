@@ -1,6 +1,8 @@
 {
+	"name": "running-tests-using-travis-and-saucelabs",
+  "version": "1.0.0",
 	"scripts": {
-    		"test":  "testcafe saucelabs:C	hrome test.js"
+    		"test":  "testcafe saucelabs:Chrome test.js"
 	},
 	"devDependencies": {
     "testcafe": "*",
