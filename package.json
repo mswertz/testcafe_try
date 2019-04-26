@@ -1,5 +1,9 @@
 {
 	"scripts": {
-    		"test":  "testcafe chrome test.js"
-	}
+    		"test":  "testcafe saucelabs:C	hrome test.js"
+	},
+	"devDependencies": {
+    "testcafe": "*",
+    "testcafe-browser-provider-saucelabs": "^1.0.0"
+  }
 }
