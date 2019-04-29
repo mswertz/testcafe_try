@@ -1,6 +1,6 @@
 import { Selector } from 'testcafe';
 
-fixture `Getting Started`
+fixture `Gavin smoketest`
   .page `https://molgenis20.gcc.rug.nl`;
 
 test('Gavin test 1', async t => {

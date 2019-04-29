@@ -1,6 +1,6 @@
 import { Selector } from 'testcafe';
 
-fixture `Getting Started`
+fixture `RD3 smoketest`
   .page `https://rd3.test.molgenis.org`;
 
 test('My first test', async t => {
