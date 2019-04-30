@@ -1,11 +1,14 @@
 {
-	"name": "running-tests-using-travis-and-saucelabs",
-  "version": "1.0.0",
-	"scripts": {
-    		"test":  "testcafe \"saucelabs:Internet Explorer@11.0:Windows 7\" test.js && testcafe saucelabs:chrome *.js"
-	},
-	"devDependencies": {
-    "testcafe": "*",
-    "testcafe-browser-provider-saucelabs": "^1.0.0"
-  }
+   "name": "running-tests-using-travis-and-saucelabs",
+   "version": "1.0.0",
+   "scripts": {
+      "test": "testcafe \"saucelabs:Internet Explorer@11.0:Windows 7\" test.js && testcafe saucelabs:chrome *.js"
+   },
+   "devDependencies": {
+      "testcafe": "*",
+      "testcafe-browser-provider-saucelabs": "^1.0.0"
+   },
+   "dependencies": {
+      "node-fetch": "^2.4.1"
+   }
 }
