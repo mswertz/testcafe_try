@@ -11,5 +11,4 @@ test('My first test', async t => {
     .typeText('#password-field', 'demo')
     .click('#signin-button')
     .click('#signout-button');
-// Test code
 });
